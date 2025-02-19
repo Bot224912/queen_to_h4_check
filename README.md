@@ -1,50 +1,33 @@
-# Basic Website
 
-This project is a simple website that demonstrates the basic structure of an HTML document, along with CSS for styling and JavaScript for interactivity.
 
-## Project Structure
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-```
-basic-website
-├── src
-│   ├── index.html       # Main HTML document
-│   ├── styles
-│   │   └── style.css    # CSS styles for the website
-│   └── scripts
-│       └── main.js      # JavaScript for interactivity
-├── package.json         # npm configuration file
-└── README.md            # Project documentation
-```
+## Step 2: Configure your site
 
-## Getting Started
+_You turned on GitHub Pages! :tada:_
 
-To get started with this project, follow these steps:
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-1. **Clone the repository** (if applicable):
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
+
+### :keyboard: Activity: Configure your site
+
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
    ```
-   git clone <repository-url>
-   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
-2. **Navigate to the project directory**:
-   ```
-   cd basic-website
-   ```
 
-3. **Install dependencies**:
-   ```
-   npm install
-   ```
-
-4. **Open the `src/index.html` file in your web browser** to view the website.
-
-## Usage
-
-You can modify the HTML, CSS, and JavaScript files to customize the website according to your needs. 
-
-- **HTML**: Update `src/index.html` to change the structure and content of the webpage.
-- **CSS**: Modify `src/styles/style.css` to change the visual appearance of the website.
-- **JavaScript**: Edit `src/scripts/main.js` to add interactivity and dynamic features.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
